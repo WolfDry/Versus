@@ -1,4 +1,4 @@
-var colors = ["#2980B9", "#E74C3C", "#2980B9",  "#E74C3C", "#2980B9", "#E74C3C", "#2980B9", "#E74C3C"];
+var colors = ["#FFD509", "#2C3E50", "#FFD509",  "#2C3E50", "#FFD509", "#2C3E50", "#FFD509", "#2C3E50"];
 // NEED to pre load this data prior
 var prize_descriptions = [
     '+1 LIFE',
@@ -58,7 +58,7 @@ function drawSpinnerWheel() {
         for (var i = 0; i < 8; i++) {
             var angle = startAngle + i * arc;
             wheel.fillStyle = colors[i];
-
+            
             wheel.beginPath();
             wheel.arc(250, 250, outsideRadius, angle, angle + arc, false);
             wheel.arc(250, 250, insideRadius, angle + arc, angle, true);
