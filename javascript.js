@@ -5,7 +5,7 @@ var prize_descriptions = [
     '-1 LIFE',
     '+2 LIVES',
     '-2 LIVES',
-    'GOOD MISS',
+    'RETRY',
     'SKIP',
     'LOOK',
     'QUESTION X2'
