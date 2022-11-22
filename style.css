@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Homestead-Inline';
+    src: url("http://hussainabbas.com/TMA/wheel/Homestead-Inline.ttf");
+}
+
+body {
+	background-image: url("Fond-compteàrebours.svg");
+	background-color:#2C3E50;
+  background-size: cover;
+}
+
+h2 {
+  position: absolute;
+  bottom: 0%;
+  left: 0;
+  right: 0;
+  font-size:200%;
+  font-weight: 100;
+  font-family: 'Alfa Slab One', cursive;
+  color: #ecf0f1;
+  text-shadow: 3px 3px 0 rgba(0,0,0,0.2);
+  text-align: center;
+}
+@media (max-width: 1200px) {
+  h2 {
+    bottom: 0;
+    font-size: 28px;
+  }
+}
+
+#spin {
+  cursor: pointer;
+}
+#container {
+  height: 100vh;
+  overflow: hidden;
+  text-align: center;
+}
+canvas {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 100%;
+  max-width: 500px;
+}
