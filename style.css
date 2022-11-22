@@ -6,8 +6,8 @@
 body {
 	background-image: url("Fond-compteàrebours.svg");
 	background-color:#2C3E50;
-	background-size: cover;
-	background-position: center;
+  background-size: cover;
+  background-position: center;
 }
 
 h2 {
@@ -37,6 +37,14 @@ h2 {
   overflow: hidden;
   text-align: center;
 }
+
+#timer{
+  position: relative;
+  top: 50%;
+  font-size: 2rem;
+  transform: translate(0%, -50%);
+}
+
 canvas {
   position: absolute;
   top: 0;
