@@ -42,7 +42,7 @@ h2 {
   position: relative;
   top: 50%;
   font-size: 2rem;
-  transform: translate(0%, -50%);
+  transform: translate(0%, -70%);
 }
 
 canvas {
