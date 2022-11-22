@@ -6,7 +6,8 @@
 body {
 	background-image: url("Fond-compteàrebours.svg");
 	background-color:#2C3E50;
-  background-size: cover;
+	background-size: cover;
+	background-position: center;
 }
 
 h2 {
